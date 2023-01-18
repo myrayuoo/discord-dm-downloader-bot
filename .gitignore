@@ -1,0 +1,9 @@
+.env
+.downloader.env
+.builder.env
+db/
+dl/
+dl-ex/
+finished-dl/
+databuilds/
+**/__pycache__/
