@@ -9,25 +9,6 @@ from os import path
 from dotenv import load_dotenv
 from utils.channel_definitions import *
 import math
-# download dms
-# approach:
-#   - iterate in order
-#   - each channel has a separate folder containing:
-#       - progress.conf
-#       - data.json
-#
-#   structure:
-#       -dl
-#           -<userid>
-#               -profile.json
-#               -<channelid>
-#                   -progress.conf
-#                   -data.json
-#
-#
-#   - in each sub iteration write to file (eg. messages chunck, last message id)
-
-# all unnecessary stuff are not included in classes
 
 
 parser = argparse.ArgumentParser(
